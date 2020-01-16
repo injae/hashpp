@@ -1,0 +1,9 @@
+[package]
+   name = "hashpp"
+   version = "0.0.1"
+   description = "c++ hash algorithm library"
+
+[[lib]]
+   name = "hashpp"
+   type = "static"
+   source = ["src/.*"]
