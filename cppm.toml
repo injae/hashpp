@@ -7,4 +7,4 @@
 [[lib]]
    name = "hashpp"
    type = "static"
-   source = ["src/.*"]
+   source = ["src/md5.cpp", "include/hashpp/md5.h"]
