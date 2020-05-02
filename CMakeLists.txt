@@ -12,7 +12,17 @@ cppm_compiler_option(DEFAULT)
 
 
 
+cppm_target_define(hashpp STATIC
+SOURCES
+    src/md5.cpp
+    include/hashpp/md5.h
+)
+
 
 set(global_deps )
+cppm_target_dependencies(hashpp
+   ${global_deps})
 
+
+cppm_target_install(hashpp)
 

@@ -4,7 +4,7 @@
    description = "c++ hash algorithm library"
    git = "https://github.com/injae/hashpp.git"
 
-[[lib]]
+[lib]
    name = "hashpp"
    type = "static"
    source = ["src/md5.cpp", "include/hashpp/md5.h"]
