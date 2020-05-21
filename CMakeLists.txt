@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
-if(NOT IS_CPPM_LOADED)
-    include(cmake/cppm_tool.cmake)
-endif()
+set(CPPM_VERSION 0.0.12)
+include(cmake/cppm_loader.cmake)
 cppm_project()
 
 project(hashpp VERSION 0.0.1 LANGUAGES C CXX)
